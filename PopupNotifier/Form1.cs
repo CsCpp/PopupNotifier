@@ -16,8 +16,14 @@ namespace PopupNotifier2
             popup = new PopupNotifier();
             popup.Image = Properties.Resources.png;
             popup.ImageSize = new Size(96, 96);
+
+            popup.TitleColor = Color.Azure;
+            popup.HeaderColor = Color.Red;
+            popup.BodyColor = Color.Fuchsia;
+            popup.ShowCloseButton=false;
             popup.TitleText = "NotyWindows";
             popup.ContentText = "Сообщение для пользователя!";
+
 
 
         }
