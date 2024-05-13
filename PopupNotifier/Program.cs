@@ -1,4 +1,4 @@
-namespace PopupNotifier
+namespace PopupNotifier2
 {
     internal static class Program
     {
